@@ -12,42 +12,87 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <a href="#" class="header__logo">
-                <img src="./images/logo.png" alt="#">
-            </a>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Главная</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Курсы</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Расписание</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Преподаватели</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Рассылка</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="nav__button">
-                Зайти в кабинет
-            </button>
-        </div>
-        <div >
-            <h1 class="">
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo">
+                    <img src="./images/logo.png" alt="#">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Курсы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Расписание</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Преподаватели</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Рассылка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button-login">
+                    Зайти в кабинет
+                </button>
+            </div>
+        </header>
+        <div class="main-info" >
+            <h1 class="main-info__header">
                 Первый курс<br>по компьютерной сборке
             </h1>
+            <div class="main-info__container">
+                <div class="main-info__time">
+                    18 <span class="main-info__span">Дней</span>
+                </div>
+                <div class="main-info__time">
+                    18 <span class="main-info__span">Часов</span>
+                </div>
+                <div class="main-info__time">
+                    18 <span class="main-info__span">Минут</span>
+                </div>
+                <div class="main-info__time">
+                    18 <span class="main-info__span">Секунд</span>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>    
+    <div class="order-course">
+        <button class="order-button">Заказать курс</button>
+        <div class="order-course__successes">
+            <div class="order-course__successes-first">
+                <p class="order-course__vars">Учеников всего:</p>
+                <p class="order-course__vars">Успешно закончили курс:</p>
+                
+            </div>
+            <div class="order-course__successes-second">
+                <p class="order-course__value">200</p>
+                <p class="order-course__value">190</p>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress__info-1">
+                <p class="progress__get">Заработано учениками: </p>
+                <p class="progress__sum">400 000₽</p>
+            </div>
+            <progress 
+                value="400000"
+                max="1000000"
+                class="progress__bar"
+            ></progress>
+            <div class="progress__info-2">
+                <p class="progress__value-from">0</p>
+                <p class="progress__value-to">1 000 000₽</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
