@@ -449,3 +449,121 @@ progress::-moz-progress-bar {
 .partners__table-td7 {
     border-right: 1px solid rgba(255,255,255,0.3);
 }
+
+.program {
+    width: 750px;
+    height: 1117px;
+    text-align: center;
+    margin-top: 242px;
+    margin-left: 577px;
+}
+
+.program__container {
+    
+    margin: auto;
+    
+}
+
+.program__logo {
+    margin-left: 13px;
+}
+
+.program__header {
+    margin-left: 15px;
+    margin-top: 71px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.program__p {
+    margin-left: 15px;
+    margin-top: 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.5;
+}
+
+hr {
+    width: 40px;
+    border: 1px solid rgba(255,255,255,0.3);
+    position: absolute;
+}
+
+.timeline {
+    margin: 91px 0 0 0;
+}
+
+.timeline__week {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    opacity: 0.5;
+    /* text-align: right; */
+}
+
+.timeline__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.timeline__image {
+    position: absolute;
+    top: 4484px;
+    right: 940px;
+}
+
+.timeline__container {
+    width: 228px;
+}
+
+.timeline__container-left {
+   text-align: right;
+    margin: 0 0 0 92px;
+}
+
+.timeline__container-right {
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+.timeline__week {
+    margin-bottom: 15px;
+}
+
+.hr-1 {
+    top: 4541px;
+    right: 946px;
+}
+
+.hr-2 {
+    top: 4628px;
+    right: 898px;
+}
+
+.hr-3 {
+    top: 4723px;
+    right: 946px;
+}
+
+.hr-4 {
+    top: 4817px;
+    right: 898px;
+}
+
+.hr-5 {
+    top: 4912px;
+    right: 946px;
+}
+
+.hr-6 {
+    top: 5007px;
+    right: 898px;
+}
+
+.hr-7 {
+    top: 5102px;
+    right: 946px;
+}
