@@ -236,23 +236,25 @@ progress::-moz-progress-bar {
 }
 
 .about-us__text {
+    position: absolute;
     width: 636px;
     height: 268px;
-    margin-top: 1px;
-    margin-left: 1px;
+    top: 1230px;
+    right: 295px;
 }
 
 .about-us__header {
     font-weight: 700;
     font-size: 48px;
     line-height: 140%;
-    margin-bottom: 1px;
+    margin-bottom: 45px;
 }
 
 .about-us__p {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
+    margin-left: 5.5px;
 }
 
 .pc-image {
@@ -263,5 +265,88 @@ progress::-moz-progress-bar {
 
 .purple-border {
     margin-left: 312px;
-    margin-top: -69px;
+    margin-top: 201px;
+}
+
+.quick-start {
+    color: #fff;
+    margin-top: 421px;
+    margin-left: 311px;
+    width: 1315px;
+    height: 552px;
+}
+
+.quick-start__logo {
+    margin-right: 22px;
+}
+
+.quick-start__intro {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.quick-start__header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.quick-start__p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 80px;
+    opacity: 0.5;
+}
+
+.percents {
+    color: #fff;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 1px;
+  
+}
+
+.percents__block {
+    width: 324px;
+}
+
+.percents__value {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+}
+
+.percents__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    opacity: 0.5;
+    max-width: 306px;
+    margin-top: -4px;
+}
+
+.img-100 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.img-75 {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.img-50 {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.img-25 {
+    margin-top: 55px;
+    margin-bottom: 70px;
 }
