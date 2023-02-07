@@ -676,7 +676,7 @@ hr {
     cursor: pointer;
 }
 
-.footer__container {
+.footer {
     width: 547px;
     height: 419px;
     text-align: center;
@@ -720,6 +720,9 @@ hr {
     top: 6359px;
     left: 1046px;
     border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .footer__icons {
